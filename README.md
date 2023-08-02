@@ -6,27 +6,25 @@ The Conversion Tool App is a Java application that allows users to convert curre
 
 <h2 align="center"> Features </h2>
 
-Currency Converter: Convert between different currencies using real-time exchange rates fetched from an API.
+<p>Currency Converter: Convert between different currencies using real-time exchange rates fetched from an API.
 Temperature Converter: Convert temperatures between Celsius, Fahrenheit, and Kelvin.
+</p>
 
-<h2 align="center"> Installation </h2>
+<h2 align="center"> Getting Started </h2>
+<p>
+To use this project, you will need to set up an environment configuration file (env file) that stores your API key. This is necessary for the project to work correctly. Here's how you can do it:
 
-Clone the repository to your local machine using the following command:
-bash
-Copy code
-git clone
-Open the project in your Java IDE (e.g., Eclipse, IntelliJ).
-
-<h2 align="center">Usage</h2>
-
-Replace "apiKey" with your actual API key in the CurrencyRatesAPI class. You can obtain a free key [here](https://app.exchangerate-api.com/).
-Launch the app by running the Main class.
-
+Create a new file in the root directory of the project and name it .env.
+Open the .env file using a text editor of your choice.
+Add the following line to the file:
 <code>
-cd conversion-tool/src
-javac *.java
-java Main
+API_KEY=YOUR_API_KEY_HERE
 </code>
+
+You can obtain a free API key [here](https://app.exchangerate-api.com/).
+</p>
+
+
 
 <h2 align="center"> 💶 Currency Converter 💶 </h2>
 
