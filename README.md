@@ -13,13 +13,14 @@ Temperature Converter: Convert temperatures between Celsius, Fahrenheit, and Kel
 <h2 align="center"> Getting Started </h2>
 <p>
 To use this project, you will need to set up an environment configuration file (env file) that stores your API key. This is necessary for the project to work correctly. Here's how you can do it:
-
-Create a new file in the root directory of the project and name it .env.
-Open the .env file using a text editor of your choice.
-Add the following line to the file:
+<ul>
+<li>Create a new file in the root directory of the project and name it .env.</li>
+<li>Open the .env file using a text editor of your choice.</li>
+<li>Add the following line to the file: <br> </li>
 <code>
 API_KEY=YOUR_API_KEY_HERE
 </code>
+</ul>
 
 You can obtain a free API key [here](https://app.exchangerate-api.com/).
 </p>
@@ -52,6 +53,8 @@ Click the "Convert" button to see the converted temperature.
 
 The app uses the following external dependencies:
 
-JSON: A JSON parser and generator for Java. (Used for parsing API responses.)
+[JSON](https://mvnrepository.com/artifact/org.json/json) A JSON parser and generator for Java. (Used for parsing API responses.)
 API Usage
 The Currency Converter fetches real-time exchange rates from an API.
+
+[dotenv-java](https://mvnrepository.com/artifact/io.github.cdimascio/java-dotenv) Environment based config for the JVM. 
