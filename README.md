@@ -17,9 +17,7 @@ To use this project, you will need to set up an environment configuration file (
 <li>Create a new file in the root directory of the project and name it .env.</li>
 <li>Open the .env file using a text editor of your choice.</li>
 <li>Add the following line to the file: <br> </li>
-<code>
-API_KEY=YOUR_API_KEY_HERE
-</code>
+<pre><code>API_KEY=YOUR_API_KEY_HERE</code></pre>
 </ul>
 
 You can obtain a free API key [here](https://app.exchangerate-api.com/).
